@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Play Action Football Dice Roller v2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+  <!-- header-->
+  <header class="scoreboard">
+    <article class="visitor">
+      <p class="label">Visitor</p>
+      <p class="score"><span class="visitor-minus"><i class="zmdi zmdi-minus-circle-outline"></i></span> <span class="visitor-score">0</span> <span class="visitor-plus"><i class="zmdi zmdi-plus-circle"></i></span></p>
+    </article>
+    <article class="home">
+      <p class="label">Home</p>
+      <p class="score"><span class="home-minus"><i class="zmdi zmdi-minus-circle-outline"></i></span> <span class="home-score">0</span> <span class="home-plus"><i class="zmdi zmdi-plus-circle"></i></span></p>
+    </article>
+  </header>
+  <!-- main rolls-->
+  <section class="main-rolls">
+    <article class="offense full-width">
+      <p class="label">Offense</p>
+      <p class="roll-value offense-roll"> </p>
+    </article>
+    <article class="defense full-width">
+      <p class="label">Defense</p>
+      <p class="roll-value defense-roll"> </p>
+    </article>
+    <article class="play-result full-width">
+      <p class="label">Play Result</p>
+      <p class="roll-value play-result-roll"> </p>
+    </article>
+    <article class="player full-width">
+      <p class="label">Player</p>
+      <p class="roll-value player-roll"> </p>
+    </article>
+  </section>
+  <!-- secondary rolls-->
+  <section class="secondary-rolls">
+    <article class="d10 full-width">
+      <p class="label">d10</p>
+      <p class="roll-value d10-roll"> </p>
+    </article>
+    <article class="d6 full-width">
+      <p class="label">d6</p>
+      <p class="roll-value d6-roll"></p>
+    </article>
+    <article class="d10-plus-d10 full-width">
+      <p class="label">d10 + d10</p>
+      <p class="roll-value d10-plus-d10-roll"> </p>
+    </article>
+    <article class="d6-plus-d6 full-width">
+      <p class="label">d6 + d6</p>
+      <p class="roll-value d6-plus-d6-roll"> </p>
+    </article>
+    <article class="d10-plus-d6 full-width">
+      <p class="label">d10 + d6</p>
+      <p class="roll-value d10-plus-d6-roll"></p>
+    </article>
+  </section>
+  <footer class="roll">
+    <button id="roll">Roll</button>
+  </footer>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
